@@ -1,7 +1,7 @@
 # Embedded Temperature Monitor & Live MATLAB Data Logger
 
 ## 📌 Overview
-A real-time environmental monitoring system built in 8051 Assembly and MATLAB. Originally developed for the UBC Electrical and Computer Engineering ELEC291/292 course, this project interfaces with an analog LM335 temperature sensor, processes the data into Celsius values using a custom 32-bit integer math library, and outputs the data to an onboard LCD and a connected PC via RS-232 serial communication. A custom MATLAB script dynamically visualizes this serial data stream as a real-time strip chart.
+A real-time environmental monitoring system built in 8051 Assembly and MATLAB. This project interfaces with an analog LM335 temperature sensor, processes the data into Celsius values using a custom 32-bit integer math library, and outputs the data to an onboard LCD and a connected PC via RS-232 serial communication. A custom MATLAB script dynamically visualizes this serial data stream as a real-time strip chart.
 
 ## ✨ Key Features
 * **Live Data Visualization (MATLAB):** Implemented a custom MATLAB `StripChart` function to capture the RS-232 serial stream and plot the temperature data dynamically, creating a real-time oscilloscope-like view of the thermal environment. 
